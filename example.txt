@@ -1,0 +1,9 @@
+if __name__ == "__main__":
+    mypython_code = """
+    def main():
+        write("Hello, MyPython!")
+    main()
+    """
+
+    interpreter = MyPythonInterpreter()
+    interpreter.interpret(mypython_code)
